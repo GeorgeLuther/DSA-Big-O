@@ -1,0 +1,40 @@
+1. a.To a certain point, this scenario is very efficient.
+ Finding a result is irrespective of the number of people/dogs. 
+ Given that all people are within earshot
+ and the noise level allows all people to be audible, this takes:
+ one operation irrespective of size
+ O(1) - constant time.
+ b. In this case the amount of time this could take is
+ proportional to the number of people. O(n) - linear time
+
+ 2. O(1) - constant time: no matter how big the number is, this should take the same amount of time.
+ the computer only needs to look at the least significant bit to determine odd or even.
+
+ 3. O(n^2) polynomial time: this algo requires two levels of looping
+ the time it may take is relative to the length of both arrays.
+
+ 4. O(n) - linear time: the length it may take to refactor the array is directly
+ proportional to the number of entries.
+
+5. O(n) - linear time: the length it may take to find the match is directly
+ proportional to the number of entries.
+
+6. O(n^2) polynomial time: this algo requires two levels of looping
+ the time it may take is relative to the length of the array * the length of the array minus a few indecies
+
+7.  This function returns an array proportional to the size of the input number.
+ the result fibonacci sequence bases each entry on the sum of the previous two entries.
+
+8. if the sizing of min and max is wrong it is O(1) and ignores the size.
+if the match is the halfway point it is O(1), independent of size.
+Otherwise is relative to half of the size. This would be O(log(n)) - logarithmic time.
+
+9. It doesn't matter how big the array is, 
+it will always take the same amount of time to pick a random element O(1).
+
+10. If n is less than two or n is not a whole number returns false O(1)
+if n is divisible evenly by two return false O(1)
+else if prime number return true. O(n) this is dependent on length
+I guess this is O(log(n))
+
+11. 
